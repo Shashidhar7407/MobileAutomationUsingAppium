@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.com_Brevistay_Login_01">
+      <class name="TestScripts.com_Brevistay_Home_01">
         <methods>
           <include name="configureAppium"/>
+          <include name="AutomateHomeScreen"/>
           <include name="tearDown"/>
-          <include name="LoginApplication"/>
         </methods>
-      </class> <!-- TestScripts.com_Brevistay_Login_01 -->
+      </class> <!-- TestScripts.com_Brevistay_Home_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

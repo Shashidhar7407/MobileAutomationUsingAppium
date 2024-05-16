@@ -1,15 +1,15 @@
 package PageObjectModelApp;
 
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import AppiumConfig.BaseConfigurationServer;
+import AppiumConfig.GesturesActions;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class BervistayPOM extends BaseConfigurationServer {
+public class BervistayPOM extends GesturesActions {
 	AndroidDriver driver;
 	
 	public BervistayPOM(AndroidDriver driver) {
